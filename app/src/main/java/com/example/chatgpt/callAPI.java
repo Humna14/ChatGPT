@@ -37,11 +37,10 @@ public class MainActivity extends AppCompatActivity {
         MessageAdapter messageAdapter;
 
         @SuppressLint("WrongViewCast")
-        @Override
+
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
-            messageList = new ArrayList<>();
 
             recyclerView = findViewById(R.id.recyclerview);
             welcomeTextView = findViewById(R.id.welcome_text);
